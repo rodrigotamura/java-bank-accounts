@@ -13,3 +13,4 @@ Basically when the program runs, it will ask for informations from one person fo
 >* Flex account: the deposited amount will have bonus of 2x from deposited value;
 >* Gold account: the deposited amount will have bonus of 3x from deposited value.
 
+![screen](capture.png)
