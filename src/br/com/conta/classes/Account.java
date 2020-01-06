@@ -28,7 +28,7 @@ public class Account implements Accountable {
 	}
 
 	@Override
-	public void Withdraw(double value, int accountIndex) {
+	public void withdraw(double value) {
 		if(balance >= value) {
 			System.out.println("Withdrawing from account number " + getAccountNumber() + "...");
 			balance = balance - value;
@@ -40,7 +40,7 @@ public class Account implements Accountable {
 	}
 
 	@Override
-	public void Deposit(double value, int accountIndex) {
+	public void deposit(double value) {
 		System.out.println("Depositing into account number " + getAccountNumber() + "...");
 		balance = calcDeposit(value);
 		System.out.println("Deposit has made successfully! Current balance: " + getBalance());

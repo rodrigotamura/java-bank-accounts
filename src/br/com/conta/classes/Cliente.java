@@ -19,6 +19,10 @@ public final class Cliente extends Pessoa {
 		accounts.remove(index);
 	}
 	
+	public Account getAccount(int index) {
+		return accounts.get(index);
+	}
+	
 	public void listAccounts() {
 		for(int i = 0; i < accounts.size(); i++) {
 			System.out.println("Agency: " + accounts.get(i).getAgency());
